@@ -1,0 +1,47 @@
+.display{
+    width: 40rem;
+    background: #eee;
+    aspect-ratio: 1;
+    padding: 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2),
+    inset 0 -0.5rem 0.5rem -0.5rem #74ebd5;
+    position: relative;
+    animation-name: popup;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.display__play{
+    position: absolute;
+    height: 10rem;
+    aspect-ratio: 1;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size:110%;
+    z-index: 1;
+    transform: translate(50%, -50%) rotate(10deg);
+}
+
+@keyframes popup {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+
