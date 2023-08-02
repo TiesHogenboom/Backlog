@@ -6,9 +6,9 @@ const TopBar = () => {
     <div className="topbar">
       <button className="topbar__button">
         <a
-          href="https://github.com/your-github-page"
+          href="https://github.com/TiesHogenboom/Backlog#readme"
           target="_blank"
-          rel="noopener noreferrer"
+          
           className="topbar__buttonLink"
         >
           How does this work
