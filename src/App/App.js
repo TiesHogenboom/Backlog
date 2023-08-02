@@ -1,16 +1,16 @@
-import Form from "../components/Form/Form"
+import Form from "../components/Form/Form";
 import Display from "../components/Display/Display";
-import './App.css';
+import TopBar from "../components/TopBar/TopBar";
+import "./App.css";
 
 const App = () => {
-
   return (
     <>
-    <Form></Form>
-      <Display/>
+      <TopBar />
+      <Form />
+      <Display />
     </>
-    
   );
-}
+};
 
 export default App;

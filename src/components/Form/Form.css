@@ -1,4 +1,4 @@
-.form{
+.form {
     width: 40rem;
     background: #eee;
     aspect-ratio: 1;
@@ -8,25 +8,30 @@
     gap: 2rem;
     justify-content: space-between;
     border-radius: 0.3rem;
-    box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2),
-    inset 0 -0.5rem 0.5rem -0.5rem #74ebd5;
-}
-
-.form__inputsWrapper{
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2), inset 0 -0.5rem 0.5rem -0.5rem #74ebd5;
+    position: relative;
+    margin-bottom: 4rem; /* Add margin at the bottom to create space for the games */
+  }
+  
+  /* Add a margin to the right of the form to create space for the games */
+  .form + .display {
+    margin-left: 4rem; /* Adjust the value based on your design */
+  }
+  
+  .form__inputsWrapper {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-}
-
-.form__wrapper{
+  }
+  
+  .form__wrapper {
     display: flex;
     flex-direction: column;
-    gap:0.5rem;
-
-}
-
-.form__search{
-    background: linear-gradient(to bottom right, #ACB6E5, #74ebd5);
+    gap: 0.5rem;
+  }
+  
+  .form__search {
+    background: linear-gradient(to bottom right, #acb6e5, #74ebd5);
     color: #eee;
     font-family: 90%;
     font-size: inherit;
@@ -35,21 +40,21 @@
     aspect-ratio: 3/1;
     padding: 1rem;
     border-radius: 0.5rem;
-    
-}
-
-.form__search:hover{
+  }
+  
+  .form__search:hover {
     cursor: pointer;
-}
-
-.form__label{
+  }
+  
+  .form__label {
     font-size: 160%;
-}
-
-.form__input{
+  }
+  
+  .form__input {
     border: none;
     background: none;
     outline: none;
     border-bottom: 0.2rem solid #74ebd5;
     font-size: 100%;
-}
+  }
+  

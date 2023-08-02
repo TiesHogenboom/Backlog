@@ -1,0 +1,30 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 4rem;
+    padding: 0 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /* Ensure the top bar is above other elements */
+  }
+  
+  .topbar__button {
+    background: linear-gradient(to right, #acb6e5, #74ebd5);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .topbar__buttonLink {
+    text-decoration: none;
+    color: white;
+  }
+  
